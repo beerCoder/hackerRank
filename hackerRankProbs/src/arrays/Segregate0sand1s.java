@@ -23,8 +23,10 @@ public class Segregate0sand1s {
 			}
 		}
 		
-		for(int j=0; j<newArr.length; j++)
-		{System.out.print(newArr[j]);}
+		for(int j=0; j<newArr.length; j++){
+			System.out.print(newArr[j]);
+		}
+		
 		return newArr;
 	}
 	
@@ -32,7 +34,7 @@ public class Segregate0sand1s {
 		
 		int[] binArray = {0,1,1,0,0,1,0,1,1};
 		
-		binArray = segregate(binArray);
+		segregate(binArray);
 		
 	}
 
